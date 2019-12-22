@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbd0c7">
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="170dp"
+        android:id="@+id/insertDate"
+        android:hint="今天是哪天"
+        android:gravity="center"
+        android:background="#fbd0c7"/>
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="170dp"
+        android:id="@+id/insertWeather"
+        android:hint="今天天气怎么样"
+        android:layout_toRightOf="@id/insertDate"
+        android:gravity="center"
+        android:background="#fbd0c7"/>
+
+    <EditText
+        android:layout_height="180dp"
+        android:layout_width="match_parent"
+        android:background="#fbd0c7"
+        android:id="@+id/insertContent"
+        android:hint="想写点什么呢~"
+        android:layout_below="@id/insertDate"/>
+
+</RelativeLayout>
